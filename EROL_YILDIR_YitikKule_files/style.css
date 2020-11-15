@@ -1,0 +1,41 @@
+body {margin:1em !important; background: #fefefe !important; XFONT: 14pt/1.5 "Trebuchet MS", Tahoma, Arial !important;}
+body{font-size:100%;font-family:'Lucida Grande',Verdana,Arial,sans-serif;color:#333;text-align:left}
+
+h1,h2  {text-align:center !important;}
+p.cntr {text-align:center !important; border-bottom:1px solid #DDDDDD !important;}
+
+.trl		{ margin: 1em !important;}
+td.trl 		{ color:darkgreen !important; vertical-align:top !important;  } /*no Paragraph*/
+td.trl *	{ color:darkgreen !important; text-align:justify;  }
+TABLE.prl	{ width: 100%; text-align:justify; }
+TABLE.prl TD	{ width: 50%; padding: 0 1.5em 0 0 !important; vertical-align:top !important; }
+
+/*
+TABLE.prl a 	{ color:#E33A23 !important;}
+TABLE.prl a * 	{ color:#E33A23 !important;}
+*/
+
+
+
+
+TABLE.prl a {color:#E33A23 !important;
+	text-decoration: none !important;
+	border-bottom: 1px solid !important;
+}
+TABLE.prl a * {color:#E33A23 !important;
+	text-decoration: none !important;
+	border-bottom: 1px solid !important;
+}
+
+TABLE.prl a:link { border-color: #FF808B !important; }
+TABLE.prl a:visited { color:#CC3399 !important; border-color: #CC3399 !important; }
+TABLE.prl a:hover { border-color: #f0b2b2 !important; color:#FF0000 !important; }
+TABLE.prl a:visited.fresh, a:visited.footer { color:#CC3399 !important;  border-color: #CC3399 !important; }
+TABLE.prl a:link * { border-color: #FF808B !important; }
+TABLE.prl a:visited * { color:#CC3399 !important;  border-color: #CC3399 !important; }
+TABLE.prl a:hover * { border-color: #f0b2b2 !important; color:#FF0000 !important; }
+TABLE.prl a:visited.fresh *, a:visited.footer * { color:#CC3399 !important;  border-color: #CC3399 !important; }
+
+
+
+
