@@ -377,7 +377,7 @@ html {
 .selaa:hover:after {border-right: 15px solid #ff0000;
 }
 .xayor:hover:before {
-    content: "Хайров Б. Наименование древнего и средневекового оружия на ингушском языке. — Магас, 2012";
+    content: "Хайров Б.А. Наименование древнего и средневекового оружия на ингушском языке. — Магас, 2012";
     background: #00FF7F; color: #222222;}
 .xayor:hover:after {border-right: 15px solid #00FF7F;
 }
@@ -691,6 +691,8 @@ cls {
 
 /*Для выделения эргативных форм*/
 er {color:#9900CC;font-size:95%; white-space:nowrap !important;}
+/*Для выделения орудийных форм*/
+or {color:#9400D3;font-size:95%; white-space:nowrap !important;}
 /*Для выделения множественных форм*/
 m {color:#6666CC;font-size:95%; white-space:nowrap !important;}
 /*Для выделения классов*/

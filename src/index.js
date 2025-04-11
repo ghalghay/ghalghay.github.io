@@ -1065,6 +1065,7 @@ function b_d_column_repl(text) {
    text = text.replace(/(<t1>pl\.<\/t1>)/g, "<abr ttl='Мн. ч.'>$1</abr>");
 
    text = text.replace(/(<i>See<\/i>)/g, "<abr ttl='Смотри'>$1</abr>");
+   text = text.replace(/(?=\s|[^\u0400-\u04FF\w]|\b|$)((Lit|lit)\.)/g, "<abr ttl='Буквально'>$1</abr>");
    text = text.replace(/(?=\s|[^\u0400-\u04FF\w]|\b|$)(sp\.)/g, "<abr ttl='Вид'>$1</abr>");
    text = text.replace(/(?=\s|[^\u0400-\u04FF\w]|\b|$)(spp\.)/g, "<abr ttl='Виды'>$1</abr>");
 //sp. (сокр. от лат. species) — вид; используется после родового названия и обозначает, что таксон определён с точностью до рода
